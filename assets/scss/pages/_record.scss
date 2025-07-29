@@ -1,0 +1,57 @@
+.card {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.card-body {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.dropdown-toggle:after {
+    content: none;
+}
+
+.table-striped-custom>tbody>tr:nth-of-type(even) {
+    --bs-table-accent-bg: #E0E5EB;
+    /* 淺橘色 */
+}
+
+.table-striped-custom tbody tr th.text-finish {
+    color: #8599AD;
+}
+
+.table-striped-custom thead th:nth-child(1) {
+    width: 616px;
+}
+
+.table-striped-custom thead th:nth-child(2) {
+    width: 111px;
+}
+
+.table-striped-custom thead th:nth-child(3) {
+    width: 81px;
+}
+
+.table-striped-custom thead th:nth-child(4) {
+    width: 83px;
+}
+
+.table-striped-custom thead th:nth-child(5) {
+    width: 89px;
+}
+.table-striped-custom th,td{
+    padding: 16px 12px;
+}
+.method {
+    padding-top: 3.5px;
+    padding-bottom: 3.5px;
+    border-radius: 12px;
+    border: 1px solid #D1D9E1;
+    background-color: white;
+}
+@media(max-width: 768px) {
+    .hide-card{
+        display: none;
+    }
+}
